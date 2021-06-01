@@ -7,9 +7,25 @@ const casa = document.getElementById('home');
 const satz = document.getElementById('quote');
 
 
-
-
-
+// function render(arr) {
+//     arr.forEach((ella) => {
+//         $('#scrolling-wrapper').innerHTML += `
+//       <figure class="card" >
+//         <div id="card">
+//             <img src="${ella.imgUrl}" alt="" /> 
+//             <figcaption>
+//                 <h2>${ella.name}</h2>
+//                 <h3>${ella.fullName}</h3>
+//                 <h3>${ella.superPower}</h3>
+//                 <h3>${ella.age}</h3>
+//                 <h3>${ella.home}</h3>
+//                 <p><b>${ella.quote}</b></p>
+//             </figcaption>
+//           </div>
+//     </figure>
+//     `;
+//     });
+// }
 
 
 
