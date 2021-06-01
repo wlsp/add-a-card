@@ -1,11 +1,10 @@
-// const img = document.getElementById('imgUrl').value;
-// const superH = document.getElementById('superHero').value;
-// const fullN = document.getElementById('fullName').value;
-// const power = document.getElementById('superPower').value;
-// const alter = document.getElementById('age').value;
-// const casa = document.getElementById('home').value;
-// const satz = document.getElementById('quote').value;
-// const cards = document.getElementById('scrolling-wrapper');
+const img = document.getElementById('imgUrl');
+const superH = document.getElementById('superHero');
+const fullN = document.getElementById('fullName');
+const power = document.getElementById('superPower');
+const alter = document.getElementById('age');
+const casa = document.getElementById('home');
+const satz = document.getElementById('quote');
 
 
 
@@ -72,11 +71,17 @@ $('form').addEventListener('submit', (event) => {
         $('#imgUrl').value
     );
     heros.createSuperHero();
-
     $('#scrolling-wrapper').innerHTML = "";
-
     render(superArray);
+    img.value = '';
+    superH.value = '';
+    fullN.value = '';
+    power.value = '';
+    alter.value = '';
+    casa.value = '';
+    satz.value = '';
 });
+
 
 
 
